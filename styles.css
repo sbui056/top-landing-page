@@ -1,0 +1,21 @@
+* {
+    border: .5px red solid;
+    font-family: roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer {
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
