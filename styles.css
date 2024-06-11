@@ -22,7 +22,6 @@ body {
 .header2 {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
 }
 
 .hero {
@@ -40,23 +39,35 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 25px 0px;
 }
 
 .boxes-container {
     display: flex;
-    gap: 25px;
+    gap: 45px;
     justify-content: center;
 }
+
 .box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 5px #3882F6 solid;
     border-radius: 12px;
 }
 
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 160px;
+    text-align: center;
+}
+
 .quote-container {
     background-color: #E5E7EB;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .quote {
