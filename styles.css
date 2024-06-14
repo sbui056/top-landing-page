@@ -9,14 +9,23 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40%;
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.left {
+    font-weight: bold;
+    font-size: 24px;
     color: #F9FAF8;
 }
 
 .right {
     display: flex;
-    gap: 15px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header2-container {
@@ -29,7 +38,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 70%;
+    width: 60%;
     margin: 100px;
 }
 
@@ -41,8 +50,28 @@ body {
     flex-wrap: wrap;
 }
 
+.text-left {
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #3882F6;
+    width: 25%;
+    height: 30px;
+}
+
 .text-right {
-    color: white;
+    color: #F9FAF8;
     padding: 75px 75px;
     background-color: gray;
 }
@@ -62,6 +91,7 @@ body {
     display: flex;
     gap: 45px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -77,6 +107,7 @@ body {
     flex-wrap: wrap;
     width: 160px;
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .quote-container {
@@ -84,6 +115,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 250px;
+    flex-wrap: wrap;
 }
 
 .quote {
@@ -103,6 +137,7 @@ body {
     justify-content: flex-end;
     font-weight: bold;
     width: 780px;
+    flex-wrap: wrap;
 }
 
 .signup-container {
@@ -119,8 +154,9 @@ body {
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-    width: 70%;
+    width: 60%;
     border-radius: 12px;
+    height: 125px;
 }
 
 .call {
