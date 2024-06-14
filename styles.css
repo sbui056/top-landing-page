@@ -1,7 +1,7 @@
-* {
+/* * {
     border: .5px red solid;
     font-family: roboto;
-}
+} */
 
 body {
     margin: 0;
@@ -13,6 +13,11 @@ body {
     gap: 40%;
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
 }
 
 .left {
@@ -66,14 +71,19 @@ body {
     align-items: center;
     border-radius: 12px;
     background-color: #3882F6;
-    width: 25%;
-    height: 30px;
+    width: 65px;
+    height: 45px;
 }
 
 .text-right {
     color: #F9FAF8;
     padding: 75px 75px;
     background-color: gray;
+}
+
+#giant-image {
+    width: 400px;
+    height: auto;
 }
 
 .icon-boxes {
@@ -108,6 +118,11 @@ body {
     width: 160px;
     text-align: center;
     margin-bottom: 75px;
+}
+
+.icon-images {
+    width: 150px;
+    height: 150px;
 }
 
 .quote-container {
